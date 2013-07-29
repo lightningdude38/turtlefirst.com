@@ -1,3 +1,44 @@
 .navbar-brand {
+	background: url('img/turtle-first-nav.png') left center no-repeat;
+	color:#9a5b38;
+	font-size:1.5em;
+	padding-left: 40px;
 	font-family: 'Sunshiney', cursive;
+	text-shadow:0 0 3px white;
+}
+
+body{
+background:#AECACD;
+}
+
+.navbar{
+background: url('img/bg.png');
+}
+
+.navbar-nav > li > a {
+color:#9a5b38;
+}
+
+.navbar-nav > li > a:hover {
+color:#667F57;
+}
+
+.navbar-nav > li.active > a {
+color:#667F57;
+}
+
+.navbar-nav > li.active > a:hover {
+color:#667F57;
+}
+
+.jumbotron{
+background: url('img/bg.png');
+}
+
+.jumbotron a{
+color:#9a5b38;
+}
+
+.jumbotron a:hover{
+color:#667F57;
 }
